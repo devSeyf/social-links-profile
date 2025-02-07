@@ -3,13 +3,13 @@ import Link from "./Link";
 
 
 const Card = () => {
-    const { img, name, job, location, links } = user;
+    const { img, name, job, wisdom, links } = user;
     return (
         <div className="card">
             <div className="card-content">
                 <img src={img} alt={name} />
                 <h1>{name}</h1>
-                <h2>{location}</h2>
+                <h2>{wisdom}</h2>
                 <p>{job}</p>
                 <ul className="list-items">
                     {
