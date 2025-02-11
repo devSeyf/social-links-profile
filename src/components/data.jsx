@@ -14,7 +14,7 @@ export const user = {
         , {
         id: 2,
         name: "Telegram Group",
-        url: "https://t.me/daif5888",
+        url: "https://t.me/daifzone",
     },
     {
         id: 3,
